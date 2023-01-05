@@ -8,7 +8,7 @@ router.beforeEach((to, from) => {
 });
 
 const { data } = await useFetch(
-  () => "https://6388772ca4bb27a7f7872d66.mockapi.io/test"
+  () => "https://6388772ca4bb27a7f7872d66.mockapi.io/test3"
 );
 </script>
 

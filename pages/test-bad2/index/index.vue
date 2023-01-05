@@ -5,7 +5,7 @@ console.log("data2", props.data2);
 
 const comp = computed(() =>
   props.data2.map((el) => {
-    const name = el.name + " - 2";
+    const name = el.name + " - bad - 2";
     return { id: el.id, name: name };
   })
 );
